@@ -10,11 +10,8 @@ html, body{
 }
 
 .video-container>video:nth-of-type(2n){
-  filter: blur(3px);
+  filter: blur(0px);
 }
 .video-container>video:nth-of-type(3n){
-  filter: grayscale(80);
-}
-.video-container>video:nth-of-type(5n){
-  filter: sepia(50);
+  filter: grayscale(0);
 }
